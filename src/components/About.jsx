@@ -4,7 +4,7 @@ const About = () => {
 
 
     return ( 
-       <div className="Aboutsec" >
+       <div className="Aboutsec" id="About">
         <h5 className="Title text-center pt-3 text-light ">About </h5>
    
     <div className="Cardes ">

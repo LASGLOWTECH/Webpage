@@ -147,7 +147,7 @@ padding: 0% 5%;}
  
 
 .Worksection p{
-  font-size: 10.5px;
+  font-size: 12px;
   text-align: justify;
   color: var(--ash);
   font-family:var(--Montserat);
@@ -302,7 +302,7 @@ margin:2% 0;
 }
 .footnote p{font-size: 12px;}
 
-.footer-icon a{margin: 0 1%;
+.footer-icon a{margin: 0 2%;
 
 color: var(--orange);}
 .footer-icon a:hover{color: var(--green-color);}
@@ -446,10 +446,6 @@ margin-top: 7%;
 
 }
 
-{
-
-  
-  }
   
   .artic{ padding-left: 2%;
     margin:2% 4%;
@@ -481,8 +477,8 @@ margin-bottom: 3px;
 
 #profile-btn:hover{border: 2px solid orange;}
   .artic p{
-    font-size: 10px;
-    text-align:center;
+    font-size: 12pxpx;
+    text-align:justify;
     color: var(--ash);
     font-family:var(--Montserat);
     padding: 4px;
@@ -495,8 +491,8 @@ margin-bottom: 3px;
   }
 .Aboutimg{
 z-index: 99;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   border: 1px solid var(--white-col);
 margin-left:10%;
