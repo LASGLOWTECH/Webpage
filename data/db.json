@@ -1,0 +1,17 @@
+{
+  "blogs": [
+    {
+      "title": "MY BLOGS",
+      "username": "Omozemoje Augustine Oisasoje",
+      "email": "omozemojeau@gmail.com",
+      "id": 1
+    },
+    {
+      "title": "Your BLOGS",
+      "username": "Austinosaz",
+      "email": "mariam@gmail.com",
+      "id": 2
+    }
+    
+  ]
+}
