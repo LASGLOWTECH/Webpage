@@ -474,6 +474,7 @@ border-radius: 3px;
 padding: 3px 1px;
 width: auto;
 margin-bottom: 3px;
+font-size: 13px;
 }
 
 #profile-btn:hover{border: 2px solid orange;}

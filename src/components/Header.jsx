@@ -38,6 +38,7 @@ const hideNav=()=>{
         
          <Link to="/userpage">Projects</Link>
          < a href='/#About'>About</a>
+        
         </div>  
            </div>  );
 }

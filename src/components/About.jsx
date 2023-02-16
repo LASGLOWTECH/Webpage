@@ -11,8 +11,9 @@ const About = () => {
     <img className="Aboutimg" src="/Profimg.jpg " alt="AUG"></img>
 
 <div className="artic pt-2 ">
+< h5 className="text-center  text-info pt-2">Austinosaz</h5>
 < h5 className="text-center  text-warning pt-2">Web developer</h5>
-<p className=" "> Hello, Welcome to My Official page, My name is Austinosaz and am here to serve you to your 
+<p className=" px-4"> Hello, Welcome to My Official page, My name is Austinosaz and am here to serve you to your 
 satisfaction, I am the founder of Lasglowtech web services, Click the button below to check my portfolio And previous Web Projects
 I look forward to working with you.</p>
 <a class="btn text-white" id="profile-btn" href="https://myfolioapp.onrender.com" role="button">View Profile</a>
@@ -31,7 +32,7 @@ I look forward to working with you.</p>
 
 <div className="artic ">
 < h5 className="text-center  text-warning pt-2">What We offer</h5>
-<p className=" ">We offer Design Related Services, Web and related Technologies, </p>
+<p className=" px-4">We offer Design Related Services, Web and related Technologies, </p>
 
 </div>
 
@@ -45,7 +46,7 @@ I look forward to working with you.</p>
 
 <div className="artic ">
 < h5 className="text-center  text-warning pt-2">Fast Delivery</h5>
-<p className= ""> We deliver projects without undue Time overun</p>
+<p className= "px-4"> How can We help you? <br/>We deliver projects without undue Time overun</p>
 
 
 </div>
@@ -60,8 +61,10 @@ I look forward to working with you.</p>
 
 <div className="artic ">
 < h5 className="text-center  text-warning pt-2">Easy Accessibility</h5>
-<p className=" "> Easily Accessible at any time</p>
+<p className="px-4 "> Easily Accessible at any time, send me message or use the social media links below</p>
+<a class="btn text-white" id="profile-btn" href='https://us11.list-manage.com/contact-form?u=7eb333b0f080a1bca8bfa4441&form_id=3a8efd1159b5398989e00245529c4faa
 
+' role="button">Send Message</a>
 
 </div>
 

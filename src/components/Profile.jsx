@@ -2,7 +2,7 @@
 const Profile = [
     { id: "1",
       title: "Our Service Include",
-      img:"webpack.jpg",
+      img:"/webpack.jpg",
       
       info:
     "We offer Design services that meet up requirments  ranging from wire framing to developement Our goal is to deliver responsive and user friendly web pages. care to know more about us and who we are?,  click the the button below to view my portfolio"
@@ -10,7 +10,7 @@ const Profile = [
 
     { id: "2",
       title: "Graphics",
-      img: "landingimg1 (2).jpg",
+      img: "/landingimg1 (2).jpg",
    
 
       info:
@@ -19,7 +19,7 @@ const Profile = [
     { id: "3",
       title: "Web services",
     
-      img: "landingimg1 (3).jpg",
+      img: "/landingimg1 (3).jpg",
     
 
     info:

@@ -15,11 +15,29 @@ const [Loading, setIsloading]= useState(false)
   
 const handleSubmit=(e)=>{
   e.preventDefault();
-  const blogs={title, message, email}
+  
+
+  const  blogs = {
+    members:[{email_address:email, 
+     status:"transactional",
+    merge_fields:{  
+     SUBJECT:title,
+     TEXTAREA:message,} }]
+};
+
+
+const url="https://us11.list-manage.com/contact-form?u=7eb333b0f080a1bca8bfa4441&form_id=3a8efd1159b5398989e00245529c4faa";
+
+// const options= {
+//            method: "POST", 
+//            auth:"austinosaz:e410b6e7be6685bc2b3757d05c63d69c-us11" }
+//            console.log(options)
+
 console.log(blogs);
   setIsloading(true);
- fetch("/", 
+ fetch(url, 
  {method:"POST",
+ auth:"austinosaz:e410b6e7be6685bc2b3757d05c63d69c-us11",
  headers:{"Content-Type":"applicaion/json"},
   body:JSON.stringify(blogs)},
   
@@ -41,7 +59,7 @@ console.log(blogs);
       <div className='first-col '>
 
     
-      <img  className="vatar  " src='image2.jpeg' alt='avatar' ></img>
+      <img  className="vatar  " src='/avatar.png' alt='avatar' ></img>
        </div>
 
      
