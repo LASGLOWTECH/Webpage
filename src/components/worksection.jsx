@@ -14,7 +14,7 @@ const Worksection = () => {
                 key={Val.id}
               >
                <div className="Worksection">
-<img src={Val.img} alt="letm" id="servi-img"></img>
+<img className="mx-0" src={Val.img} alt="letm" id="servi-img"></img>
 <h5 className="text-justify">{Val.title}</h5>
 <p>{Val.info}
 </p>
