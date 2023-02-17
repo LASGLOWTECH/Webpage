@@ -72,7 +72,7 @@ I look forward to working with you.</p>
 
     
 </div>
-< h5 className="text-center  text-warning pt-2">MY TEAM</h5>
+< h5 className="text-center pt-5 text-warning pt-2">MY TEAM</h5>
 {Team.map(team=>(
     
 <div className="Cardes " key={team.id}>
