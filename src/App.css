@@ -224,7 +224,7 @@ padding:10px;
  
 .Landing{background-color:var(--blue-color);
   background-size:cover;
-  background-image: url('/public/Landingimg.jpg');
+  background-image: url('/public/Landing.jpg');
   opacity: 100%;
   height:auto;
   background-color: #04091efa;
@@ -271,10 +271,6 @@ font-size: 40px;
   font-weight: 700;
   line-height: 55px;
   letter-spacing: -0.04em;
-}
- 
-.card-mg-top img{
-  width: 100px;
 }
 
 .hero-text{color: var(--orange);
