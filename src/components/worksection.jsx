@@ -6,7 +6,7 @@ const Worksection = () => {
 
   return (
     <>
-     
+     <h5 className="Title  text-center py-2 "  id="info-text">Our Services </h5>
       <div className="row section2 mg-0">
           {Item.map(Val => {
             return (
@@ -14,9 +14,9 @@ const Worksection = () => {
                 key={Val.id}
               >
                <div className="Worksection">
-<img className="mx-0" src={Val.img} alt="letm" id="servi-img"></img>
-<h5 className="text-justify">{Val.title}</h5>
-<p>{Val.info}
+<img className="pt-2" src={Val.img} alt="letm" id="servi-img"></img>
+<h5 className=" pt-2 text-justify">{Val.title}</h5>
+<p className="px-2 py-1">{Val.info}
 </p>
 
 

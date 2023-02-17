@@ -11,7 +11,7 @@ const Navbar = () => {
   }
 
 const hideNav=()=>{
-  setNavexpanded(navExpanded)
+  setNavexpanded(!navExpanded)
  
   
 }
@@ -34,11 +34,13 @@ const hideNav=()=>{
        <div className= {navExpanded? "clinks expanded" : 'clinks '  }>
         
        <Link to="/">Home</Link> 
+    
+         < Link to='/#About'>About</Link>
          <Link to="/login">Contact</Link>
-        
          <Link to="/userpage">Projects</Link>
-         < a href='/#About'>About</a>
         
+
+         
         </div>  
            </div>  );
 }

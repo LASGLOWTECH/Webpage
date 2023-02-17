@@ -1,29 +1,29 @@
 
 const Profile = [
     { id: "1",
-      title: "Our Service Include",
-      img:"/webpack.jpg",
+      title: "What we Know How to do",
+      img:"./webpack.jpg",
       
       info:
-    "We offer Design services that meet up requirments  ranging from wire framing to developement Our goal is to deliver responsive and user friendly web pages. care to know more about us and who we are?,  click the the button below to view my portfolio"
+    "We offer Design services that meet up requirments  ranging from wire framing to developement Our goal is to deliver responsive and user friendly web pages, with aesthetically pleasing user layout and structure  "
     },
 
     { id: "2",
       title: "Graphics",
-      img: "/landingimg1 (2).jpg",
+      img: "./landingimg1 (2).jpg",
    
 
       info:
-      "We provide excellent graphics solutions; designs and order for yours.All services include, Logo/ branding, Stickes, flyers, banners and posters, Brochurs, jotters, Certificates, Shirt and Cap mockups,etc. click the button below to explore our designs" },
+      "We provide excellent graphics solutions; designs and order for yours. related  services include, Logo/ branding, Stickes, flyers, banners and posters, Brochurs, jotters, Certificates, Shirt and Cap mockups,etc. check projects section to see our works" },
 
     { id: "3",
       title: "Web services",
     
-      img: "/landingimg1 (3).jpg",
+      img: "./landingimg1 (3).jpg",
     
 
     info:
-    "We offer Design services that meet up requirments  ranging from wire framing to developement Our goal is to deliver responsive and user friendly web pages. care to know more about us click the the button below to view my portfolio"
+    "Web services such as bulk sms, Utiliting services, Cable and data subscribtion, Result checkin and E-pin generating  e.t.c"
     },
     
     ]

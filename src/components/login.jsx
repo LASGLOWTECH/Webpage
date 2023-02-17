@@ -1,147 +1,101 @@
 import { useState } from "react";
 
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+const ContactUs = () => {
+  const form = useRef();
+  const [loading, setIsloading]= useState(false)
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    setIsloading(true);
+
+    emailjs.sendForm('service_9yexy8p', 'template_cl62k3c', form.current, 'PBTi6vGyx_hHTMRZs')
+    
+    .then((result) => {
+        
+          console.log(result.text);
+          setIsloading(false);
+          alert("sent")
+         
+      }, (error) => {
+          console.log(error.text);
+         ;
+      });
+      e.target.reset()
+  };
 
 
 
-const Login=()=> {
-  const [title, setTitle]= useState('')
-  const [message, setMessage]= useState('')
-const [email, setEmail]= useState('')
-const [Loading, setIsloading]= useState(false)
+  return (
 
-
-
-
-  
-const handleSubmit=(e)=>{
-  e.preventDefault();
-  
-
-  const  blogs = {
-    members:[{email_address:email, 
-     status:"transactional",
-    merge_fields:{  
-     SUBJECT:title,
-     TEXTAREA:message,} }]
-};
-
-
-const url="https://us11.list-manage.com/contact-form?u=7eb333b0f080a1bca8bfa4441&form_id=3a8efd1159b5398989e00245529c4faa";
-
-// const options= {
-//            method: "POST", 
-//            auth:"austinosaz:e410b6e7be6685bc2b3757d05c63d69c-us11" }
-//            console.log(options)
-
-console.log(blogs);
-  setIsloading(true);
- fetch(url, 
- {method:"POST",
- auth:"austinosaz:e410b6e7be6685bc2b3757d05c63d69c-us11",
- headers:{"Content-Type":"applicaion/json"},
-  body:JSON.stringify(blogs)},
-  
-).then(()=>{
-  console.log("posted")
-  setIsloading(false);
-})
-  
-}
-
-
-    return ( 
-
-<div className="container-fluid">
-
+    <div className="container-fluid">
 
 <div className=' first-row align-self-center'>
 
-      <div className='first-col '>
+<div className='first-col '>
 
     
       <img  className="vatar  " src='/avatar.png' alt='avatar' ></img>
        </div>
 
-     
 
 
-      <div className=' second-col  '>
+       <div className=' second-col'>
 
-<form  action="./" onSubmit={handleSubmit} className='formally' >
-<h3 className="welcome">Welcome!</h3>
+
+ <form  className="formally"  ref={form} onSubmit={sendEmail}>
+    < h3 className="welcome">Welcome!</h3>
 <p>Enter details </p>
-
-
+    
 <div className="form-group">
  <label for="exampleFormControlInput"></label>
  <input type="text" 
  className="form-control" 
+  id="exampleFormControlInput1"  
+  name="user_name" 
+  placeholder="Name" 
+  
+  ></input></div>
+
+<div className="form-group">
+ <label for="exampleFormControlInput"></label>
+ <input type="Email" 
+ className="form-control" 
  id="exampleFormControlInput1"  
-  name="Title" 
-  placeholder="Title" 
-  onChange={(e)=> setTitle(e.target.value)}
-  value={title}
-  ></input>
+  name="user_email" 
+  required placeholder="Email"
+  
+  ></input></div>
 
-{/* text arae */}
 
-<div class="form-group">
-              <label for="exampleFormControlTextarea1"></label>
+
+<div className="form-group">
+ <label for="exampleFormControlInput"></label>
+ <label for="exampleFormControlTextarea1"></label>
               <textarea class="form-control"   name="message" id="exampleFormControlTextarea1" placeholder="Message" cols=""
-                rows="3" 
-                onChange={(e)=>setMessage(e.target.value)}
-                value={message}></textarea>
-            </div>
-
-{/* end of textarea */}
+                rows="3"></textarea></div>
 
 <div className="form-group">
-  <label for="exampleFormControlInput"></label>
-  <input type="email" className="form-control" 
-  id="exampleFormControlInput1" 
-  name="email" required placeholder="Email"
- 
-  onChange={(e)=>setEmail(e.target.value)}
-  value={email}/>
-</div>
-
- 
-
-   
-</div>
-
-<div className="form-group">
-
-{!Loading &&  <button  className="btn btn-info mt-3 text-light">Login</button>}
-{Loading &&<button  className="btn btn-info  text-light" disabled>Adding...</button>}
+{ !loading && <input type="submit" className=" px-2 sub-btn mt-2 bg-primary text-light" value="Send" />}
+{ loading && <input type="submit" className=" px-2 sub-btn mt-2 bg-warning text-light" disabled  value="Sending" />}
   </div>
 
 
-
-
-</form>
-
-
-
-
-
-      {/* end of formarea */}
-      </div>
-     
-
-      </div>
-     
-
-
-
-
+    </form>
 
 
 </div>
 
 
 
-     );
-}
- 
-export default Login;
+
+    </div>
+    </div>
+
+
+  );
+};
+export default ContactUs;
