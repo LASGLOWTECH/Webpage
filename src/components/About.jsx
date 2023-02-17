@@ -1,5 +1,5 @@
 
-
+import Team from "./Team";
 const About = () => {
 
 
@@ -72,6 +72,29 @@ I look forward to working with you.</p>
 
     
 </div>
+< h5 className="text-center  text-warning pt-2">MY TEAM</h5>
+{Team.map(team=>(
+    
+<div className="Cardes " key={team.id}>
+    <img className="Aboutimg" src={team.img} alt="AUG"></img>
+
+<div className="artic pt-2 ">
+< h5 className="text-center  text-info pt-2">{team.name}</h5>
+< h5 className="text-center  text-warning pt-2">{team.Title}</h5>
+<p className=" px-4"> {team.info}</p>
+<a class="btn text-white" id="profile-btn" href={team.link} role="button">connect</a>
+
+</div>
+
+
+
+    
+</div>
+
+
+
+))}
+
 
 
 </div>

@@ -273,6 +273,9 @@ font-size: 40px;
   letter-spacing: -0.04em;
 }
  
+.card-mg-top img{
+  width: 100px;
+}
 
 .hero-text{color: var(--orange);
 font-size:25px;

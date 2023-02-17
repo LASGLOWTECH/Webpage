@@ -37,7 +37,7 @@ const hideNav=()=>{
     
          < Link to='/#About'>About</Link>
          <Link to="/login">Contact</Link>
-         <Link to="/userpage">Projects</Link>
+         <Link to="/Projects">Projects</Link>
         
 
          
