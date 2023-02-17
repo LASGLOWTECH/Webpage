@@ -239,8 +239,8 @@ animation-iteration-count: infinite;
 animation-duration: 20s;}
 
    @keyframes change {
-    from{   background-image: url('/public/Landingimg.jpg')}
-    to{ background-image: url('/public/Landingimg1\ \(1\).jpg')}
+    from{   background-image: url('/public/Landing.jpg')}
+    to{ background-image: url('/public/Land1.jpg')}
    }
 
   #row1 {

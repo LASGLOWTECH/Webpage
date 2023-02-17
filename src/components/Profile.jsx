@@ -10,7 +10,7 @@ const Profile = [
 
     { id: "2",
       title: "Graphics",
-      img: "/Images/Landing1.jpg",
+      img: "./Images/Land1.jpg",
    
 
       info:
@@ -19,7 +19,7 @@ const Profile = [
     { id: "3",
       title: "Web services",
     
-      img: "/Images/Landing2.jpg",
+      img: "./Images/Land2.JPG",
     
 
     info:
