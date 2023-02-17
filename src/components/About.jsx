@@ -80,9 +80,9 @@ I look forward to working with you.</p>
 
 <div className="artic pt-2 ">
 < h5 className="text-center  text-info pt-2">{team.name}</h5>
-< h5 className="text-center  text-warning pt-2">{team.Title}</h5>
+< h6 className="text-center  text-warning pt-2">{team.Title}</h6>
 <p className=" px-4"> {team.info}</p>
-<a class="btn text-white" id="profile-btn" href={team.link} role="button">connect</a>
+<a class="btn px-2 text-white" id="profile-btn" href={team.link} role="button">Connect</a>
 
 </div>
 
