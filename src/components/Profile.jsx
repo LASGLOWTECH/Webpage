@@ -19,8 +19,8 @@ const Profile = [
     { id: "3",
       title: "Web services",
     
-      img: "./Images/Land2.jpg",
-    
+      img: "/Images/Land4.jpg",
+  
 
     info:
     "Web services such as bulk sms, Utiliting services, Cable and data subscribtion, Result checkin and E-pin generating  e.t.c"
