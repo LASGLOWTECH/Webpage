@@ -19,7 +19,7 @@ const Profile = [
     { id: "3",
       title: "Web services",
     
-      img: "./Images/Land2.JPG",
+      img: "./Images/Land2.jpg",
     
 
     info:
