@@ -10,7 +10,7 @@ const Profile = [
 
     { id: "2",
       title: "Graphics",
-      img: "./Images/Land1.jpg",
+      img: "/Images/Land1.jpg",
    
 
       info:

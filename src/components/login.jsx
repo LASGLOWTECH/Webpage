@@ -38,7 +38,7 @@ const ContactUs = () => {
 <div className='first-col '>
 
     
-      <img  className="vatar w-75  " src='./images/avatar.png' alt='avatar' ></img>
+      <img  className="vatar w-75  " src='/images/avatar.png' alt='avatar' ></img>
        </div>
 
 

@@ -201,6 +201,28 @@ img: "/Images/LOGO8.jpg",
 
 },
 
+{ id: "35",
+category: "Logos/brand",
+
+img: "/Images/MOCKUP.jpg",
+
+},
+
+{ id: "36",
+category: "Logos/brand",
+
+img: "/Images/MYBRAND.jpg",
+
+},
+
+
+{ id: "37",
+category: "Logos/brand",
+
+img: "/Images/MYBRAND1.jpg",
+
+},
+
 
 { id: "31",
 category: "Wedding Cards",

@@ -23,8 +23,8 @@ const App=()=>{
 <div className='items'>
 <Switch>
 <Route exact path="/"> <Homepage/></Route>
-    <Route path="/login"> <ContactUs/>  </Route>
-        <Route path="/Projects"><Userpage /> </Route>
+<Route path="/login"> <ContactUs/>  </Route>
+ <Route path="/Projects"><Userpage /> </Route>
         
       </Switch>
  
