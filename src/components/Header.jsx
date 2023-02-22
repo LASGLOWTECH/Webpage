@@ -17,7 +17,7 @@ const hideNav=()=>{
 }
 // window click hide nav
 
-  window.addEventListener("click", hideNav)
+  
     return (  
       
         <div className="navarea">
