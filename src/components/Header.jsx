@@ -10,14 +10,7 @@ const Navbar = () => {
 
   }
 
-const hideNav=()=>{
-  setNavexpanded(!navExpanded)
- 
-  
-}
-// window click hide nav
 
-  
     return (  
       
         <div className="navarea">
