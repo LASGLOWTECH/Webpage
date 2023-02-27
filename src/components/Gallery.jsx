@@ -219,7 +219,7 @@ img: "/Images/MYBRAND.jpg",
 { id: "37",
 category: "Logos/brand",
 
-img: "/Images/MYBRAND1.png",
+img: "/Images/CONFIDENCE.png",
 
 },
 
