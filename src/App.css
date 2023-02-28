@@ -475,10 +475,13 @@ margin-top: 7%;
     
 
 }
+.card-img-top{height: auto;
+}
+.card-container{ margin:0 2px;
 
+}
 
-
-
+.photo{width:inherit;}
 
   
   #profile-btn{font-size: 12px;
@@ -533,6 +536,7 @@ margin-left:10%;
     width: 150px;
     height: 150px;
     margin: auto;}
+    
 
 .btn{
     display: flex;
@@ -543,7 +547,7 @@ font-size: small;
     
   }
 
-.photo { width:600px;
+.photo { width:inherit;
 border-radius: 5px;
 border: 1px solid green;}
   

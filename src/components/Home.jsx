@@ -15,7 +15,7 @@ const Homepage = () => {
   <div className="col-12 " id="row1">
 
     <h1>
-    Get A Suitable Website for your Business
+    WE PROVIDE EXCELLENT GRAPHIC AND WEB SOLUTIONS
     </h1>
   
   <p className="hero-text  ">Bringing Design Ideas to Reality...</p>
