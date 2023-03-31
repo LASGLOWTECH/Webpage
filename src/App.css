@@ -360,19 +360,6 @@ p {
 }
 
 
-.display-section{
-  width:100%;
-  opacity: 1;
-  background-image: url("/public/Heropic.jpg");
-  background-color:var(--orange);
-  background-position: cover;
-  background-size: cover;
- 
-}
-
-
-.image{float: left};
-
 
 .footnote .tag-text {
   color: #f7931e;
@@ -460,7 +447,7 @@ p {
 
 
   #col {
-    width: 400px;
+    width: 300px;
     height:auto;
     margin-top: 8px;
     box-shadow: inset;
