@@ -9,7 +9,7 @@ const Profile = [
     },
 
     { id: "2",
-      title: "Graphics",
+      title: "Graphic design",
       img: "/Images/Land1.jpg",
    
 
@@ -17,7 +17,7 @@ const Profile = [
       "We provide excellent graphics solutions; designs and order for yours. related  services include, Logo/ branding, Stickes, flyers, banners and posters, Brochurs, jotters, Certificates, Shirt and Cap mockups,etc. check projects section to see our works" },
 
     { id: "3",
-      title: "Web services",
+      title: "Web Service",
     
       img: "/Images/Land4.jpg",
   

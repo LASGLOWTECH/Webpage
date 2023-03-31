@@ -1,99 +1,55 @@
 
-import Team from "./Team";
-const About = () => {
 
+ import React ,{useEffect } from 'react'
+ import Team from "./Team";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+const About = () => {
+      
+   useEffect(()=>{
+AOS.init({duration: 2000});      
+
+}, []);
 
     return ( 
-       <div className="Aboutsec" id="About">
-        <h5 className="Title text-center pt-3 text-light ">About </h5>
+       <div className="  Aboutsec " id="About">
+        <h2 className="Title text-center py-3 text-light ">ABOUT LASGLOWTECH </h2>
+        {/* begining of row */}
    
-    <div className="Cardes ">
-    <img className="Aboutimg" src="/Profimg.jpg " alt="AUG"></img>
 
-<div className="artic pt-2 ">
-< h5 className="text-center  text-info pt-2">Austinosaz</h5>
-< h5 className="text-center  text-warning pt-2">Web developer</h5>
-<p className=" px-4"> Hello, Welcome to My Official page, My name is Austinosaz and am here to serve you to your 
-satisfaction, I am the founder of Lasglowtech web services, Click the button below to check my portfolio And previous Web Projects
-I look forward to working with you.</p>
-<a class="btn text-white" id="profile-btn" href="https://myfolioapp.onrender.com" role="button">View Profile</a>
+        <div className="row">
 
-</div>
+   {Team.map(team=>(
+    
 
-
+    <div className=" col-lg-3 col-md-6  Cardes1  "  key={team.id}>
+           
+           <div className="artic text-center " data-aos="zoom-in-up">
+           <div className="Card-Hearder py-2 text-center" ><h4>{team.Header}</h4></div>
+           <img className="Aboutimg1 my-3 "   src={team.img} alt="AUG"></img>
+           < h5 className="text-center text-info pt-2">{team.name}</h5>
+           < h5 className="text-center fw-50 text-warning pt-2"  >{team.Title}</h5>
+           <p className=" text-base  px-4"> {team.info}.</p>
+           <a class="btn mx-4 my-3  text-white" id="profile-btn" href={team.link}  role="button">{team.button}</a>
+           
+           </div>
+            
+           </div>
+    
 
     
+    ))}
 </div>
 
-
-
-<div className="Cardes mt-30 ">
-    <img className="Aboutimg ml-2" src="/workpic.jpg " alt="AUG"></img>
-
-<div className="artic ">
-< h5 className="text-center  text-warning pt-2">What We offer</h5>
-<p className=" px-4">We offer Design Related Services, Web and related Technologies, </p>
-
-</div>
+{/* end of about section */}
 
 
 
-    
-</div>
-
-<div className="Cardes mt-30 ">
-    <img className="Aboutimg ml-2" src="/work.jpg " alt="AUG"></img>
-
-<div className="artic ">
-< h5 className="text-center  text-warning pt-2">Fast Delivery</h5>
-<p className= "px-4"> How can We help you? <br/>We deliver projects without undue Time overun</p>
-
-
-</div>
 
 
 
-    
-</div>
 
-<div className="Cardes mt-30 ">
-    <img className="Aboutimg ml-2" src="/fastlink.jpg " alt="AUG"></img>
-
-<div className="artic ">
-< h5 className="text-center  text-warning pt-2">Easy Accessibility</h5>
-<p className="px-4 "> Easily Accessible at any time, send me message or use the social media links below</p>
-<a class="btn text-white" id="profile-btn" href='https://us11.list-manage.com/contact-form?u=7eb333b0f080a1bca8bfa4441&form_id=3a8efd1159b5398989e00245529c4faa
-
-' role="button">Send Message</a>
-
-</div>
-
-
-
-    
-</div>
-< h5 className="text-center pt-5 text-warning pt-2">MY TEAM</h5>
-{Team.map(team=>(
-    
-<div className="Cardes " key={team.id}>
-    <img className="Aboutimg" src={team.img} alt="AUG"></img>
-
-<div className="artic pt-2 ">
-< h5 className="text-center  text-info pt-2">{team.name}</h5>
-< h6 className="text-center  text-warning pt-2">{team.Title}</h6>
-<p className=" px-4"> {team.info}</p>
-<a class="btn px-2 text-white" id="profile-btn" href={team.link} role="button">Connect</a>
-
-</div>
-
-
-
-    
-</div>
-
-
-
-))}
+{/* team sectiom */}
 
 
 
@@ -103,3 +59,6 @@ I look forward to working with you.</p>
 }
  
 export default About;
+
+
+

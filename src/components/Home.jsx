@@ -3,6 +3,7 @@
 
 import Worksection from "./worksection";
 import About from "./About";
+
 const Homepage = () => {
 
 
@@ -18,9 +19,9 @@ const Homepage = () => {
     WE PROVIDE EXCELLENT GRAPHIC AND WEB SOLUTIONS
     </h1>
   
-  <p className="hero-text  ">Bringing Design Ideas to Reality...</p>
+  <p className="hero-text pt-3 ">Bringing Design Ideas to Reality...</p>
  
-  < div className="popper text-center">
+  < div className="popper px-2 py-2 text-center">
   <h3 >  We offer your Choices</h3>
 </div>
 
