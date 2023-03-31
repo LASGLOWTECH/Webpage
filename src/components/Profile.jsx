@@ -1,7 +1,7 @@
 
 const Profile = [
     { id: "1",
-      title: "What we Know How to do",
+      title: "Web develpment",
       img:"./webpack.jpg",
       
       info:
@@ -14,7 +14,7 @@ const Profile = [
    
 
       info:
-      "We provide excellent graphics solutions; designs and order for yours. related  services include, Logo/ branding, Stickes, flyers, banners and posters, Brochurs, jotters, Certificates, Shirt and Cap mockups,etc. check projects section to see our works" },
+      "We provide excellent graphics solutions;  related  services include, Logo/ branding, Stickes, flyers, banners and posters, Brochurs, jotters, Certificates, Shirt and Cap mockups,etc. check projects section to see our works" },
 
     { id: "3",
       title: "Web Service",

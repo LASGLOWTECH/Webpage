@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const Worksection = () => {
 
   useEffect(()=>{
-    AOS.init({duration: 3000});      
+    AOS.init({duration: 2000});      
     
     }, []);
     const [Item]=useState(Profile)
@@ -21,7 +21,7 @@ const Worksection = () => {
                 <div className="col-lg-3  col-md-4" id="col" 
                 key={Val.id}
               >
-               <div className="Worksection"   data-aos="zoom-out">
+               <div className="Worksection"   data-aos="slide-up">
 <img className="pt-3" src={Val.img} alt="letm" id="servi-img"></img>
 <h5 className=" pt-2 text-justify">{Val.title}</h5>
 <p className="px-2  text-wrap py-1">{Val.info}

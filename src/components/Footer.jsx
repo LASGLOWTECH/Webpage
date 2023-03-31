@@ -12,7 +12,7 @@ const today= new Date().getFullYear();
 <h5 className="tag-text"> created by</h5>
 <p>&copy; Austinosaz All rights reserved<span className="Date px-1 text-info">{newDay} </span>  </p> 
 
-<div class="footer-icon text-cennter mb-7"  >
+<div class="footer-icon text-cennter mx-6 mb-7"  >
   <a href="https://m.facebook.com/omozemoje.augustineoisasoje" target="_blank"><i class=" iconf fab fa-facebook-f" ></i></a>
   <a href="https://twitter.com/OmozemojeAugus1" target="_blank" ><i class=" iconf fab fa-twitter" ></i></a>
   <a href="https://wa.me/2349031821590" target="_blank"><i class=" iconf fab fa-whatsapp" ></i></a>

@@ -30,8 +30,8 @@ AOS.init({duration: 2000});
            < h5 className="text-center text-info pt-2">{team.name}</h5>
            < h5 className="text-center fw-50 text-warning pt-2"  >{team.Title}</h5>
            <p className=" text-base  px-4"> {team.info}.</p>
-           <a class="btn mx-4 my-3  text-white" id="profile-btn" href={team.link}  role="button">{team.button}</a>
-           
+           <a class="btn btn-outline-primary mx-4 my-3  text-white" id="profile-btn" href={team.link}  role="button"> {team.button}</a>
+          
            </div>
             
            </div>

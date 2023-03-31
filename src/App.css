@@ -197,7 +197,7 @@ p {
 .Worksection h5 {
   color: var(--orange);
   font-size: 20px;
-  font-family: var(--Lobster);
+  font-family: var(--Montserat);
   font-weight: bolder;
 }
 
@@ -688,13 +688,13 @@ margin: auto 25%;
 @media screen and (max-width: 700px) {
   #btn {
     margin-top: 0;
-    width: 100%;
+    width:inherit;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: var(--primary-color);
-
+    font-size: 8px;
+   
   }
 
   .artic {
@@ -738,5 +738,16 @@ margin: auto 25%;
 
   #row1 .hero-text {
     font-size: 13px;
+  }
+
+  #btn {
+    margin-top: 0;
+    width:inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 8px;
+   
   }
 }

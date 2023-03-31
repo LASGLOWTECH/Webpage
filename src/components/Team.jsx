@@ -47,7 +47,17 @@ const Team = [
       Header:"TEAM"
     },
 
-    
+   { id: 4,
+      name: "Seguni",
+      Title: "Visual Designer",
+      info:"Adebayor Segun is a visual designer, web designer and graphics designer proficient in a whole range of  design software",
+      img:"/Images/Segun.jpg",
+      link:"https://wa.me/",
+      button:"CONNECT",
+      Header:"TEAM",
+      waicon:" fab fa-whatsapp"
+    },
+
 
     ]
 

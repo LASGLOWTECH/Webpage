@@ -197,7 +197,7 @@ img: "/Images/LOGO8.png",
 { id: "30",
 category: "Logos/brand",
 
-img: "/Images/LOGO8.jpg",
+img: "/Images/LOGO123.jpg",
 
 },
 
@@ -249,6 +249,85 @@ category: "Wedding Cards",
 img: "/Images/WED4.jpg",
 
 },
+
+{ id: "39",
+category: "flyers",
+
+img: "/Images/flyer341.png",
+
+},
+
+
+{ id: "40",
+category: "flyers",
+
+img: "/Images/flyer342.png",
+
+},
+
+{ id: "41",
+category: "flyers",
+
+img: "/Images/flyer343.png",
+
+},
+
+
+{ id: "42",
+category: "flyers",
+
+img: "/Images/flyer344.png",
+
+},
+
+{ id: "43",
+category: "flyers",
+
+img: "/Images/flyer345.png",
+
+},
+
+{ id: "44",
+category: "flyers",
+
+img: "/Images/flyer346.png",
+
+},
+
+{ id: "45",
+category: "flyers",
+
+img: "/Images/flyer347.png",
+
+},
+
+{ id: "46",
+category: "flyers",
+
+img: "/Images/flyer348.png",
+
+},
+
+
+{ id: "47",
+category: "flyers",
+
+img: "/Images/flyer349.png",
+
+},
+
+
+{ id: "48",
+category: "flyers",
+
+img: "/Images/flyer350.png",
+
+},
+
+
+
+
+
   ];
   
  
