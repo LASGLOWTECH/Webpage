@@ -454,6 +454,7 @@ p {
   }
 /* Home section styling on small screen */
 
+#servi-img{width: 250px;}
   .popper {
     width: 250px;
     margin: 10% auto;
@@ -731,7 +732,9 @@ margin: auto 25%;
 @media screen and (max-width: 300px) {
   #row1 h1 {
     font-size: 20px;
+  
   }
+  #servi-img{width: fit-content;}
 
   #row1 .hero-text {
     font-size: 13px;
