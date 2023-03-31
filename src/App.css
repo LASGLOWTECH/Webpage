@@ -402,7 +402,7 @@ p {
   .clinks {
     display:none;
     flex-direction: column;
-    width: 300px;
+    width: 100vw;
     height: 466px;
     top:100px;
     text-align: center;
@@ -440,21 +440,21 @@ p {
   .clinks.expanded {
     display: flex;
     transition: 2s ease-in-out ;
-    transform: translateX(-50px);
+    transform: translateX(-10px);
 
 ;
   }
 
 
   #col {
-    width: 300px;
+    width: 370px;
     height:auto;
     margin-top: 8px;
     box-shadow: inset;
   }
 /* Home section styling on small screen */
 
-#servi-img{width: 250px;}
+#servi-img{width: 300px;}
   .popper {
     width: 250px;
     margin: 10% auto;
