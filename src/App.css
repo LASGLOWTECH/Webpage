@@ -133,7 +133,7 @@
 }
 
 .clinks a:active {
-  background-color: #f7931e
+  background-color: var(--secondary-color)
 }
 
 .clinks a:hover {
@@ -186,41 +186,10 @@
   animation-duration: 30s;
 }
 
-/* @keyframes change {
-  from {
-    background: linear-gradient(#04091efa, #04091efa);
-    background-size: cover;
-    background-position: unset;
-    background-color: #04091efa;
- 
-    background-blend-mode: darken;
-  }
-
-  to {
-    background-image: rgba(4, 9, 30, 0.98) url('/public/Land1.jpg');
-    background-size: cover;
-    background-position: unset;
-    background-blend-mode: darken;
- 
-  }
-}
- */
-
-/* #row1 {
-   padding: auto 2%;
-  top:10px;
-  margin:10%  auto;
-  width: max-content;
-  height:300px;
-  color: var(--white-col);
-  text-align: center;
-  justify-content: center;
-  align-items: center; 
 
 
 
 
-} */
 
 
 .testimonials,
@@ -312,7 +281,7 @@
 }
 
 .sub-btn:hover {
-  background-color: #39CDCC;
+  background-color: var(--green-color);
 }
 
 
@@ -338,7 +307,7 @@
 }
 
 .hero-text {
-  color: #66fcf1;
+  color: var(--green-color);
   font-size: 20px;
   ;
 }
@@ -380,7 +349,7 @@
   border-radius: 15px;
  background-color: transparent;
  border: 1px solid var(--green-color);
-  color:#39CDCC;
+  color:var(--green-color);
 }
 
 .CTA2:hover {
@@ -471,10 +440,6 @@ fill: var(--green-color);
   }
 }
 
-.footnote .tag-text {
-  color: #f7931e;
-  font-size: 13px;
-}
 
 .footer-icon {
   display: flex;
