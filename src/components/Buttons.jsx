@@ -10,7 +10,7 @@ const Buttons = ({ filterItem, setItems, menuItems }) => {
         {menuItems.map((Val, id) => {
           return (
             <button
-              className="  rounded-3 border-0 
+              className=" baton rounded-3 border-0 
               p-2 mx-2  baton"
               onClick={() => filterItem(Val)}
               key={id}>

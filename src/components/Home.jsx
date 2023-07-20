@@ -258,11 +258,6 @@ const Homepage = () => {
 
                 <p className=' px-4 text-light fs-6 text-normal  pt-4 '>We are known for our 24/7  Digital  support. We are accessible from around the world</p>
                
-                {/* greenbox  */}
-             
-
-
-                {/* make h1 count whrn scroll into view */}
 
                 <div className='mt-4 mx-4'>
                   <button className="  px-4 py-2 sm-place-items-center fw-normal CTA" > <a href="https://wa.me/2349031821590" className=" text-dark text-decoration-none">Engage us</a> </button>
