@@ -43,7 +43,7 @@ const Worksection = () => {
         {Item.map(items => {
           return (
             <Col lg={4} md={6} key={items.id} className='secure justify-content-lg-center mt-3  py-2 
-            ' data-aos="slide-left">
+            ' data-aos="slide-up">
               <div className='d-flex h-100 border  border-info border-2 bg-dark rounded-2 p-3 flex-column'>
                 <div className=' d-flex pt-3  secure align-items-center '>
                   <items.icon.iconTitle className='fw-bolder display-6 fs-sm-1 fw-bolder  text-info' />

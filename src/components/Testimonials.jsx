@@ -1,6 +1,6 @@
 
 import { Container, Row, Col, } from "react-bootstrap";
-import { TelephonePlus, ChatQuoteFill, ChatFill } from "react-bootstrap-icons";
+import { ChatQuoteFill } from "react-bootstrap-icons";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -51,7 +51,7 @@ const Testimonials = () => {
           {Testifiers.map(reviews => {
             return (
               <Col lg={6} key={reviews.id}>
-                <div className="row d-flex bg-dark testprof1  rounded-4 shadow-5 justify-content-center mx-4 mb-5"data-aos="slide-left">
+                <div className="row d-flex bg-dark testprof1  rounded-4 shadow-5 justify-content-center mx-4 mb-5"data-aos="fade-in">
 
                   <div className="col-lg-6  testprof">
                     <p className='   text-light fs-6 text-normal pt-3 mt-3'>{reviews.Text} </p>
@@ -59,12 +59,12 @@ const Testimonials = () => {
                     <p className='  text-info fs-6 fw-bold  '>{reviews.position}</p>
 
                   </div>
-
+s
                   <div className="col-lg-6  d-flex  justify-content-center align-items-center pb-5">
 
                     <div className='img-ito d-flex  position-relative   flex-row-reverse bg-dark m-2 '>
-                      <div className="rounded-5 d-flex justify-content-end align-items-top  border-info border-top-2 position-absolute mb-5 p-2 ms-5 "><ChatQuoteFill className="text-info   fs-3 z-index-1 " /></div>
-                      <img className="icon-i border border-info border-2 " src={reviews.icon} alt="house"
+                      <div className="rounded-5 d-flex justify-content-end align-items-top  position-absolute mb-5 p-2 ms-5 "><ChatQuoteFill className="text-info   fs-3 z-index-1 " /></div>
+                      <img className="icon-i  " src={reviews.icon} alt="house"
                         style={{ width: '150px', height: '150px', borderRadius: '100%' }} >
                       </img></div>
 
