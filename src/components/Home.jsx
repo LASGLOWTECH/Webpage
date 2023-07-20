@@ -69,7 +69,7 @@ const Homepage = () => {
               </div>
 
               <div className="col-lg-5  d-flex jusify-content-center align-items-ceneter pt-5" id="row2" data-aos="slide-left">
-                <img src='.//Images/man.png' alt='workimage ' className='w-100 p-3'></img>
+                <img src='./Images/man.png' alt='workimage ' className='w-100 p-3'></img>
 
               </div>
             </div>
