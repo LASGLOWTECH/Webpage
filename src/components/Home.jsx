@@ -257,9 +257,7 @@ const Homepage = () => {
                 </div>
 
                 <p className=' px-4 text-light fs-6 text-normal  pt-4 '>We are known for our 24/7  Digital  support. We are accessible from around the world</p>
-                <h3 className='fill-text text-secondary pe-5 fw-bolder display-4'></h3>
-
-
+               
                 {/* greenbox  */}
              
 
