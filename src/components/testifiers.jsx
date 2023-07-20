@@ -5,7 +5,7 @@ const Testifiers =[
  Text:"Have been priviledge to engage you in one of our projects, and the result was superb.",
  Name:"Nicholas A.",
  position:"CEO NMI",
- icon:"./Prof2.png",
+ icon:"./prof2.png",
 },
 {
 

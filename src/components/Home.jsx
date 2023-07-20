@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import Worksection from "./worksection";
 import Testimonials from './Testimonials';
-import About from "./About";
+
 import { Row, Col, Container } from 'react-bootstrap';
 import React from "react";
 import Featureslist from './featureslist';
@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import { useState, useEffect } from 'react';
-import { TelephonePlus, ChatQuoteFill, ChatFill } from "react-bootstrap-icons";
+
 
 
 // import { PrivacyTip } from '@mui/icons-material';
@@ -69,7 +69,7 @@ const Homepage = () => {
               </div>
 
               <div className="col-lg-5  d-flex jusify-content-center align-items-ceneter pt-5" id="row2" data-aos="slide-left">
-                <img src='../images/man.png' alt='workimage ' className='w-100 p-3'></img>
+                <img src='.//Images/man.png' alt='workimage ' className='w-100 p-3'></img>
 
               </div>
             </div>

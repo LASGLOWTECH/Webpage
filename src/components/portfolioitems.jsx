@@ -30,7 +30,7 @@ linkinfo: "https://nminitiative.com",
   tech: "Created with react bootstrap",
   
   linkinfo: "https://echojones.com",
-  picture:"./images/Land3.jpg",
+  picture:"./Images/Land3.jpg",
   
   },
 ]
