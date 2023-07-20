@@ -57,7 +57,7 @@ const Homepage = () => {
 
                 < div className="   mt-5 d-flex b-items flex-row ps-4 justify-content-start ">
                   <div>
-                    <button className="  px-3 py-2 fw-bold CTA"  > <Link to="/login" className=" text-dark text-decoration-none">Hire Us</Link> </button>
+                    <button className="  px-3 py-2 fw-bold CTA"  > <Link to="/login" className=" text-dark text-decoration-none">Contact Us</Link> </button>
 
                   </div>
 
@@ -256,7 +256,7 @@ const Homepage = () => {
 
                 </div>
 
-                <p className='  px-4 text-light fs-6 text-normal  pt-4 '>We are known for our 24/7  Digital  support. We are accessible from around the world</p>
+                <p className=' px-4 text-light fs-6 text-normal  pt-4 '>We are known for our 24/7  Digital  support. We are accessible from around the world</p>
                 <h3 className='fill-text text-secondary pe-5 fw-bolder display-4'></h3>
 
 

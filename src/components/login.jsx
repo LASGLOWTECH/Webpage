@@ -85,10 +85,10 @@ const ContactUs = () => {
             <Col lg={6}>
               <form className="formal p-3" ref={form} onSubmit={sendEmail} >
 
-              <h5 className='text-info pt-lg-3 pt-md-3 fw-bolder  padtext  '>Enter your Details</h5>
-                 
+                <h5 className='text-info pt-lg-3 pt-md-3 fw-bolder  padtext  '>Enter your Details</h5>
+
                 <div className="form-group">
-                  <label for="exampleFormControlInput"></label>
+                  <label for="exampleFormControlInput "  className=" text-light pt-3 pb-1">Name</label>
                   <input type="text"
                     className="form-control bg-dark text-light"
                     id="exampleFormControlInput1"
@@ -98,7 +98,7 @@ const ContactUs = () => {
                   ></input></div>
 
                 <div className="form-group">
-                  <label for="exampleFormControlInput"></label>
+                  <label for="exampleFormControlInput" className=" text-light pt-3 pb-1">Email</label>
                   <input type="Email"
                     className="form-control bg-dark text-light"
                     id="exampleFormControlInput1"
@@ -110,14 +110,14 @@ const ContactUs = () => {
 
 
                 <div className="form-group">
-                  <label for="exampleFormControlInput"></label>
+                  <label for="exampleFormControlInputct "  className=" text-light pt-3 pb-1">Message</label>
                   <label for="exampleFormControlTextarea1"></label>
                   <textarea className="form-control bg-dark text-light" name="message" id="exampleFormControlTextarea1" placeholder="Message" cols="10"
                     rows="3"></textarea></div>
 
                 <div className="form-group">
-                  {!loading && <input type="submit" className=" px-3 py-2 rounded-3 mt-2 bg-info text-light" value="Send" />}
-                  {loading && <input type="submit" className=" px-3 py-2 rounded-3 mt-2 bg-success text-light" disabled value="Sending" />}
+                  {!loading && <input type="submit" className=" px-3 py-2 rounded-3 mt-3 bg-info text-light" value="Send" />}
+                  {loading && <input type="submit" className=" px-3 py-2 rounded-3 mt-3 bg-success text-light" disabled value="Sending" />}
                 </div>
 
 
