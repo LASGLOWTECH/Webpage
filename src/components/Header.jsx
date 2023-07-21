@@ -14,10 +14,10 @@ const Navbar = () => {
     <div className="navarea d-flex align-items-center">
       <Container>
         < div className='navs d-flex flex-row justify-content-between align-items-center'>
-          <div className="navbrand ps-4 "><img src="logo.svg" alt="i" className='navimg fs-6'></img> </div>
+          <div className="navbrand ps-4 "><img src="Weblogo.svg" alt="i" className='navimg fs-6'></img> </div>
 
           <button class="navbar-toggler p-2 rounded-3 bg-light" type="button" >
-            <span class="navbar-toggler-icon"><i class="menu-burger fa fa-bars text-info "
+            <span class="navbar-toggler-icon"><i class="menu-burger  secure fa fa-bars text-info "
 
               onClick={expandNav} aria-hidden="true" id="icon"></i></span>
           </button>

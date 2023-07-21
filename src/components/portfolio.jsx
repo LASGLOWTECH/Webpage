@@ -37,7 +37,7 @@ Portfolioitems.map(items=>{
   <Col lg={6} className="py-3" key={items.id}>
   <div className=' folioimage d-flex py-5 w-100 justify-content-center flex-column align-items-center   rounded-2 ' style={{backgroundImage:`url(${items.picture})` , height:"60vh"}}>
 
-  <h5 className="text-info fw-bold p- ">{items.title}</h5>
+  <h5 className="real fw-bold p- ">{items.title}</h5>
   
   
   <p className='  px-4 text-light centertext display-1 fs-6 text-normal  pt-4 '>{items.tech}</p>

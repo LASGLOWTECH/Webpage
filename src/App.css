@@ -12,13 +12,13 @@
 :root {
   /* colors */
   --white-col: #ffffff;
-  --green-color: #0dcaf0;
+  --green-color: #00FFFF;
 
   --blue-color: #213F7D;
   --ash: #545F7D;
   --secondary-color: #15172e;
   --primary-color: #15172f;
-  --light-color1: #0b090d;
+  --light-color1: hsl(270, 18%, 4%);
 
   --violet: #5258FB;
   /* fonts */
@@ -29,7 +29,7 @@
   --Ubuntu: 'Ubuntu', sans-serif;
 
 }
-
+.real, .iconf{color:var(--green-color)}
 
 /* .topnav {
   display: flex;
@@ -71,13 +71,26 @@
   width: 5px;
   height: 5px;
   border-radius: 100%;
+  background-color: var(--green-color);
 }
 
 .dot2 {
   height: 3px;
   width: 200px;
   border-radius: 10px;
+  background-color: var(--green-color);
 }
+
+/* to be used as background color througout */
+.bg-color{
+  background-color: var(--green-color);
+
+}
+
+/* border used througout the ptoject */
+.border-color{ border:2px solid var(--green-color)}
+
+
 
 .section2 {
   justify-content: space-evenly;
@@ -217,7 +230,7 @@
 
 
 .agency1 {
-  background: rgba(0, 0, 0, 0.9) url("/public/Elegant.jpg");
+  background: rgba(0, 0, 0, 0.8) url("/public/Elegant.jpg");
   background-blend-mode: darken;
 
   background-position: center;
@@ -607,13 +620,7 @@ fill: var(--green-color);
   color: var(--green-color);
 }
 
-#row1 {
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white
-}
+
 
 
 /* About styling */
@@ -847,10 +854,7 @@ fill: var(--green-color);
   }
 
 
-  .hero-text,
-  .hero-text2 {
-    text-align: center;
-  }
+  
 
 
   .b-items {

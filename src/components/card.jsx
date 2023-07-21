@@ -9,7 +9,7 @@ const Card = ({ item }) => {
     columnsCountBreakPoint={{350:1, 750:2, 900:4}} 
     gutter='5px' >
   
-<Masonry>
+   <Masonry>
 
 {item.map(Val => {
             return (

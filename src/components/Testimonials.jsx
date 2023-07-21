@@ -21,14 +21,14 @@ const Testimonials = () => {
 
           <Col lg={6} md={6} className='   py-2 px-2' data-aos="slide-right">
             <div className='d-flex secure justify-content-start p-2 h-100  rounded-2 flex-column'>
-              <h3 className="text-info fw-medium pt-2 pb-2  ps-4 ">Clients Testimonials</h3>
+              <h3 className="real fw-medium pt-2 pb-2  ps-4 ">Clients Testimonials</h3>
               <h2 className="text-left text-light  fs-2 fw-bolder px-4">Reviews From Our Happy Clients</h2>
 
               <div className='linesd d-flex flex-row justify-content-md-start  justify-content-sm-start align-items-sm-center pt-2 px-4'>
-                <div className='dot bg-info mx-2 '></div>
-                <div className='dot bg-info mx-2'></div>
-                <div className='dot bg-info mx-2'></div>
-                <div className='dot2 bg-info mx-2'></div>
+                <div className='dot  mx-2 '></div>
+                <div className='dot  mx-2'></div>
+                <div className='dot  mx-2'></div>
+                <div className='dot2  mx-2'></div>
 
               </div>
 
@@ -56,14 +56,14 @@ const Testimonials = () => {
                   <div className="col-lg-6  testprof">
                     <p className='   text-light fs-6 text-normal pt-3 mt-3'>{reviews.Text} </p>
                     <h5 className='text-light  pt-2 fs-5 fw-bold '>{reviews.Name}</h5>
-                    <p className='  text-info fs-6 fw-bold  '>{reviews.position}</p>
+                    <p className='  real fs-6 fw-bold  '>{reviews.position}</p>
 
                   </div>
 s
                   <div className="col-lg-6  d-flex  justify-content-center align-items-center pb-5">
 
                     <div className='img-ito d-flex  position-relative   flex-row-reverse bg-dark m-2 '>
-                      <div className="rounded-5 d-flex justify-content-end align-items-top  position-absolute mb-5 p-2 ms-5 "><ChatQuoteFill className="text-info   fs-3 z-index-1 " /></div>
+                      <div className="rounded-5 d-flex justify-content-end align-items-top  position-absolute mb-5 p-2 ms-5 "><ChatQuoteFill className="real  fs-3 z-index-1 " /></div>
                       <img className="icon-i  " src={reviews.icon} alt="house"
                         style={{ width: '150px', height: '150px', borderRadius: '100%' }} >
                       </img></div>
