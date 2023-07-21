@@ -16,8 +16,8 @@ const Navbar = () => {
         < div className='navs d-flex flex-row justify-content-between align-items-center'>
           <div className="navbrand ps-4 "><img src="Weblogo.png" alt="i" className='navimg fs-6'></img> </div>
 
-          <button class="navbar-toggler p-2 rounded-3 bg-light" type="button" >
-            <span class="navbar-toggler-icon"><i class="menu-burger  secure fa fa-bars text-info "
+          <button class="navbar-toggler p-2 rounded-circle bg-color " type="button" >
+            <span class="navbar-toggler-icon"><i class="menu-burger  secure fa fa-bars real "
 
               onClick={expandNav} aria-hidden="true" id="icon"></i></span>
           </button>

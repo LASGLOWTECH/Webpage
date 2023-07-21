@@ -159,7 +159,7 @@
 .navbar-toggler {
   display: none;
   position: absolute;
-
+background-color: var(--green-color);
   margin-left: 75%;
 }
 
@@ -372,17 +372,7 @@ transform: translateY(3px);
 color: black;
 }
 
-/* 
-.folioimage{
-  background: rgba(0, 0, 0, 0.5) url("/public/Elegant.jpg");
-  background-blend-mode: darken;
 
-  background-position:center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-
-} */
 
 .folioimage:hover{
   background: rgba(0, 0, 0, 0.9) ;
@@ -408,21 +398,10 @@ transition: 1s ease-in;
 }
 
 
-/* Footercomponent Styling */
-/* .footnote {
-  background-color: var(--secondary-color);
-  font-family: arial;
-  width: 100%;
-  height: auto;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 5px 3px;
-  line-height: 1;
 
 
 
-} */
+
 
 /* SCroll arrow styling */
 .arrow-up{
@@ -717,15 +696,6 @@ fill: var(--green-color);
   /* end of about styling */
 }
 
-/* .Aboutimg {
-  z-index: 99;
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  border: 3px solid var(--white-col);} */
-
-
-/* end of about styling */
 
 
 @media screen and (max-width: 767px) {
@@ -845,7 +815,11 @@ fill: var(--green-color);
   }
 
   .linesdot {
-    margin-left: 15vw
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+
   }
 
   #servi-img {
@@ -856,12 +830,7 @@ fill: var(--green-color);
   
 
 
-  .b-items {
-    display: flex;
-
-    margin-left: 30%;
-    padding-left: 0;
-  }
+ 
 
 
   #btn {

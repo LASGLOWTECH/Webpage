@@ -38,24 +38,24 @@ const Homepage = () => {
       <div className="Landing pb-4 ">
         <section>
           <Container>
-            <div className="row  secure  pt-5">
+            <div className="row   pt-5">
 
-              <div className="col-lg-7 py-3  " id="row1" data-aos="slide-right">
+              <div className="col-lg-7 py-3 secure  " id="row1" data-aos="slide-right">
                 <h3 className="hero-text centertext fw-medium pt-5 pb-2  ps-4 ">Bringing Design Ideas to Reality...</h3>
                 <h2 className=" centertext text-light text-left px-4">
                   WE PROVIDE EXCELLENT GRAPHIC AND WEB SOLUTIONS
                 </h2>
 
-                <div className='linesdot  centertext  d-flex flex-row justify-content-start  align-items-center pt-2 px-4'>
+                <div className='linesdot  d-flex flex-row justify-content-start  align-items-center pt-2 px-4'>
                   <div className='dot mx-2 '></div>
                   <div className='dot mx-2'></div>
                   <div className='dot mx-2'></div>
                   <div className='dot2 mx-2'></div>
 
                 </div>
-                <p className="hero-text2 fs-6 text-normal pt-5 mx-4 ">All you need in one place, we make use of our best to effect what you want. Try us and testify later</p>
+                <p className="hero-text2 fs-6 centertext text-normal pt-5 mx-4 ">All you need in one place, we make use of our best to effect what you want. Try us and testify later</p>
 
-                < div className="   mt-5 d-flex b-items flex-row ps-4 justify-content-start ">
+                < div className=" secure  mt-5 d-flex b-items flex-row ps-4 justify-content-start align-items-center ">
                   <div>
                     <button className="  px-3 py-2 fw-bold CTA"  > <Link to="/login" className=" text-dark text-decoration-none">Contact Us</Link> </button>
 
@@ -68,7 +68,7 @@ const Homepage = () => {
 
               </div>
 
-              <div className="col-lg-5  d-flex jusify-content-center align-items-ceneter pt-5" id="row2" data-aos="slide-left">
+              <div className="col-lg-5  d-flex jusify-content-center align-items-ceneter pt-5" id="row2" >
                 <img src='./Images/man.png' alt='workimage ' className='w-100 p-3'></img>
 
               </div>
