@@ -44,7 +44,7 @@ const Footer = () => {
           <Col lg={4} sm={6} md={6}>
             <h5 className='  fw-bold px-4 padtext real '>Lasglowtech</h5>
             <p className='  text-light fs-6  px-4 pt-4 '>Lasglowtech is a digital agency, with the core mandate of designing and creating mobile responsive and user friendly websites by bringing design ideas to reality for any organization, and that clients are satisfied.</p>
-            <div className="navbrand ps-4 "><img src="Weblogo.png" alt="weblogo" className='navimg fs-6'></img> </div>
+            <div className="navbrand ps-4 "><img src="Logograd.png" alt="weblogo" className='navimg fs-6'></img> </div>
 
           </Col>
 

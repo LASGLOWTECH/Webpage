@@ -12,7 +12,7 @@
 :root {
   /* colors */
   --white-col: #ffffff;
-  --green-color: #00FFFF;
+  --green-color: #00d3ac;
 
   --blue-color: #213F7D;
   --ash: #545F7D;
@@ -52,7 +52,7 @@
 
 /* NAVBAR STYLING */
 .navimg {
-  width: 150px;
+  width: 90px;
   height: auto;
 
 }
@@ -174,7 +174,7 @@ background-color: var(--green-color);
 }
 
 #row2 {
-  background-image: url('/public/Images/deds.png');
+  /* background-image: url('/public/Images/deds.png'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
