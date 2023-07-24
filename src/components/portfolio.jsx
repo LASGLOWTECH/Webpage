@@ -11,12 +11,12 @@ const Portfolio = () => {
 
 <h3 className=" centertext text-left text-light display-4  fw-bolder px-4">PORTFOLIO</h3>
 
-<h5 className="text-info  centertext fw-bold py-1 ">Our previous Projects</h5>       
+<h5 className="real centertext fw-bold py-1 ">Our previous Projects</h5>       
 <div className='linesd   d-flex flex-row justify-content-md-start  justify-content-sm-start align-items-sm-center  px-4'>
-                  <div className='dot bg-info mx-2 '></div>
-                  <div className='dot bg-info mx-2'></div>
-                  <div className='dot bg-info mx-2'></div>
-                  <div className='dot2 bg-info mx-2'></div>
+                  <div className='dot bg-color mx-2 '></div>
+                  <div className='dot bg-color mx-2'></div>
+                  <div className='dot bg-color mx-2'></div>
+                  <div className='dot2 bg-color mx-2'></div>
 
                 </div>
 </div>
