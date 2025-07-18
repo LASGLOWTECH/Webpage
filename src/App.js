@@ -7,7 +7,7 @@ import About from './components/About';
 import ContactUs from './components/Contact';
 import Homepage from './components/Home';
 import Footer from './components/Footer';
-import Portfolio from './components/portfolio';
+// import Portfolio from './components/portfolio';
 import { ScaleLoader } from "react-spinners";
 import ScrollTop from './components/scroll';
 // import Userdetails from './components/userdetails';
